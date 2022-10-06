@@ -1,0 +1,4 @@
+﻿[*.vb]
+
+# BC30738: 'Sub Main' is declared more than once in 'WinPwnder': WinPwnder.My.MyApplication.Main(Args As String()), WinPwnder.Module1.Main()
+dotnet_diagnostic.BC30738.severity = suggestion
