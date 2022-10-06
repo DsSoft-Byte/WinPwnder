@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\source\\repos\\WinPwnder\\WinPwnder\\WinPwnder.vbproj",
+      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\GitHub\\WinPwnder\\WinPwnder\\WinPwnder\\WinPwnder.vbproj",
       "projectName": "WinPwnder",
-      "projectPath": "C:\\Users\\Daniel\\source\\repos\\WinPwnder\\WinPwnder\\WinPwnder.vbproj",
+      "projectPath": "C:\\Users\\Daniel\\Documents\\GitHub\\WinPwnder\\WinPwnder\\WinPwnder\\WinPwnder.vbproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\source\\repos\\WinPwnder\\WinPwnder\\obj\\",
+      "outputPath": "C:\\Users\\Daniel\\Documents\\GitHub\\WinPwnder\\WinPwnder\\WinPwnder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
