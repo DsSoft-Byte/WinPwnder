@@ -20,7 +20,7 @@ Public Class Form2
             MsgBox("The Update file has been downloaded, or is obsolete but present. ERROR Code 01")
         Else
             My.Computer.Network.DownloadFile(
-        "https://raw.githubusercontent.com/DsSoft-Byte/iCu/main/iCures_Updater.zip",
+        "https://raw.githubusercontent.com/DsSoft-Byte/WinPwnder/main/WP.zip",
         "C:\Users\Public\Downloads\File\WP.zip")
             Module1.Main()
             Process.Start("C:\Users\Public\Downloads\WP\Updater\iCuUpdater.exe")
