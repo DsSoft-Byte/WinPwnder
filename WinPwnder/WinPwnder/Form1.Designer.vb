@@ -36,7 +36,6 @@ Partial Class Form1
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -54,6 +53,8 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label15 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -86,11 +87,11 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(374, 446)
+        Me.Label3.Location = New System.Drawing.Point(388, 442)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(150, 21)
+        Me.Label3.Size = New System.Drawing.Size(132, 21)
         Me.Label3.TabIndex = 2
-        Me.Label3.Text = "Release Candidate 1"
+        Me.Label3.Text = "Release Version 7"
         '
         'Panel1
         '
@@ -181,9 +182,9 @@ Partial Class Form1
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label4.Location = New System.Drawing.Point(322, 273)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(219, 15)
+        Me.Label4.Size = New System.Drawing.Size(271, 15)
         Me.Label4.TabIndex = 6
-        Me.Label4.Text = "Credits to Cryptiiiic on GitHub for gaster"
+        Me.Label4.Text = "Credits to Cryptiiiic and 0x7ff on GitHub for gaster"
         '
         'Label5
         '
@@ -214,17 +215,6 @@ Partial Class Form1
         Me.Label7.Size = New System.Drawing.Size(252, 15)
         Me.Label7.TabIndex = 9
         Me.Label7.Text = "Credits to CoccooFroggy for Futurerestore GUI"
-        '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label8.Location = New System.Drawing.Point(383, 406)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(132, 21)
-        Me.Label8.TabIndex = 10
-        Me.Label8.Text = "DB. iCu Codebase"
         '
         'Panel2
         '
@@ -363,7 +353,7 @@ Partial Class Form1
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(233, 32)
         Me.Button11.TabIndex = 13
-        Me.Button11.Text = "Custom3"
+        Me.Button11.Text = "Force Update/Repair"
         Me.Button11.UseVisualStyleBackColor = False
         '
         'Button12
@@ -375,7 +365,7 @@ Partial Class Form1
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(233, 32)
         Me.Button12.TabIndex = 12
-        Me.Button12.Text = "Custom2"
+        Me.Button12.Text = "Reboot"
         Me.Button12.UseVisualStyleBackColor = False
         '
         'Button13
@@ -387,18 +377,18 @@ Partial Class Form1
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(233, 32)
         Me.Button13.TabIndex = 11
-        Me.Button13.Text = "Custom1"
+        Me.Button13.Text = "Install Driver *.reg"
         Me.Button13.UseVisualStyleBackColor = False
         '
         'Label12
         '
         Me.Label12.AutoSize = True
         Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label12.Location = New System.Drawing.Point(103, 10)
+        Me.Label12.Location = New System.Drawing.Point(86, 8)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(49, 15)
+        Me.Label12.Size = New System.Drawing.Size(93, 15)
         Me.Label12.TabIndex = 11
-        Me.Label12.Text = "Custom"
+        Me.Label12.Text = "Troubleshooting"
         '
         'Label13
         '
@@ -417,9 +407,30 @@ Partial Class Form1
         Me.Label14.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label14.Location = New System.Drawing.Point(512, 9)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(77, 21)
+        Me.Label14.Size = New System.Drawing.Size(67, 21)
         Me.Label14.TabIndex = 17
-        Me.Label14.Text = "V1.0.0 RC"
+        Me.Label14.Text = "V7.3.2 R"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Location = New System.Drawing.Point(322, 373)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(258, 15)
+        Me.Label8.TabIndex = 18
+        Me.Label8.Text = "Credits to P5_2005#9579 on discord for *.reg file"
+        '
+        'Label15
+        '
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label15.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label15.Location = New System.Drawing.Point(302, 476)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(291, 13)
+        Me.Label15.TabIndex = 19
+        Me.Label15.Text = "If you encounter any bug, make an Git issue immediatly"
         '
         'Form1
         '
@@ -427,12 +438,13 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer), CType(CType(44, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(601, 588)
+        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label14)
         Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Panel4)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
@@ -472,7 +484,6 @@ Partial Class Form1
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
@@ -491,4 +502,6 @@ Partial Class Form1
     Friend WithEvents Button14 As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents Label14 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label15 As Label
 End Class

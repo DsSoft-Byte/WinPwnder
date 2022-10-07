@@ -70,4 +70,20 @@ Open Windows settings, search for Edit the system environment variables -> Envir
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         MsgBox("Custom Update URLS and a lot more coming soon!")
     End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        Form2.Show()
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        Process.Start("disabledriver.reg")
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        MsgBox("Just restart your PC, its not THAT hard.")
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+
+    End Sub
 End Class

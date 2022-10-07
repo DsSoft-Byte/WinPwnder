@@ -79,7 +79,7 @@ Partial Class Form2
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(93, 204)
+        Me.Label3.Location = New System.Drawing.Point(56, 204)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(643, 20)
         Me.Label3.TabIndex = 4
@@ -89,11 +89,11 @@ Partial Class Form2
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 72.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(12, 117)
+        Me.Label4.Location = New System.Drawing.Point(12, 168)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(75, 128)
+        Me.Label4.Size = New System.Drawing.Size(38, 65)
         Me.Label4.TabIndex = 5
         Me.Label4.Text = "."
         '
@@ -109,6 +109,8 @@ Partial Class Form2
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
         Me.Name = "Form2"
         Me.Text = "iPwnder Updater"
         Me.ResumeLayout(False)

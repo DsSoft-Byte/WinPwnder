@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "WinPwnder/1.0.0": {
+      "WinPwnder/7.3.2": {
         "runtime": {
           "WinPwnder.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "WinPwnder/1.0.0": {
+    "WinPwnder/7.3.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

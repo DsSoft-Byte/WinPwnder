@@ -47,9 +47,9 @@ Partial Class Form1
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
         Me.Label2.Location = New System.Drawing.Point(21, 68)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(331, 20)
+        Me.Label2.Size = New System.Drawing.Size(275, 20)
         Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Please make sure you have stable/enough power"
+        Me.Label2.Text = "Please make sure you have stable power"
         '
         'Button1
         '
@@ -88,7 +88,7 @@ Partial Class Form1
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "Form1"
-        Me.Text = "DsSoft update handler V1.1.7"
+        Me.Text = "DsSoft update handler V1.1.8"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
