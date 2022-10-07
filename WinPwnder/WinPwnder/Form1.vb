@@ -26,7 +26,8 @@ Public Class Form1
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        Process.Start("https://t.me/sepfinderbot")
+        'Process.Start(New ProcessStartInfo("https://youtube.com") {UseShellExecute = True});
+        Process.Start("cmd", "/c start https://t.me/sepfinderbot")
     End Sub
 
     Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
@@ -76,7 +77,7 @@ Open Windows settings, search for Edit the system environment variables -> Envir
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        Process.Start("disabledriver.reg")
+        Shell("regedit C:\WinPwnder\disabledriver.reg")
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
