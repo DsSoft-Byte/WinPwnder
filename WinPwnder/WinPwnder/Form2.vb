@@ -23,7 +23,7 @@ Public Class Form2
         "https://raw.githubusercontent.com/DsSoft-Byte/WinPwnder/main/WP.zip",
         "C:\Users\Public\Downloads\File\WP.zip")
             Module1.Main()
-            Process.Start("C:\Users\Public\Downloads\WP\Updater\iCuUpdater.exe")
+            Process.Start("C:\Users\Public\Downloads\Updater\WinPwnder\Updater\iCuUpdater.exe")
             Me.Close()
             Form1.Close()
         End If

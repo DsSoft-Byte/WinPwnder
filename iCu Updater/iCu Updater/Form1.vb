@@ -3,8 +3,8 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If My.Computer.FileSystem.FileExists("C:\Users\Public\Downloads\Updater\WP\WinPwnder.exe") Then
-            My.Computer.FileSystem.CopyDirectory("C:\Users\Public\Downloads\Updater\WP\", "C:\WinPwnder", True)
+        If My.Computer.FileSystem.FileExists("C:\Users\Public\Downloads\Updater\WinPwnder\WinPwnder.exe") Then
+            My.Computer.FileSystem.CopyDirectory("C:\Users\Public\Downloads\Updater\WinPwnder\", "C:\WinPwnder", True)
             Label1.Text = "DsSoft WinPwnder software is updating..."
             Label2.Text = "To avoid data corruption do NOT Sleep, Shut down or Restart the Machine, DO NOT close this window"
             Button1.Text = "Updating..."
