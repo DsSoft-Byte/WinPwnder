@@ -1,6 +1,8 @@
 # WinPwnder
 
 
+As of 20.02.2025 merged into iOSBridge
+
 An AIO Tool for pwndfu on Windows
 
 Includes Zedig, 0x7ff and Cryptiiiic's Gaster
